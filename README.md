@@ -1,7 +1,5 @@
 # MaquinaVirtual
 Una máquina virtual creada a base de pilas.
-# MaquinaVirtual
-Una máquina virtual creada a base de pilas.
 # Creación de máquina virtual
 - - -
 ## Introducción
