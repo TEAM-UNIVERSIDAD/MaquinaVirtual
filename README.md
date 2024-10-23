@@ -29,6 +29,7 @@ El código contiene pilas, funciones y una Máquina Virtual, donde la Clase Pila
 
 ### Clase Pila 
 Para empezar, las pilas son estructuras de datos que siguen el principio LIFO, es decir, el último elemento que entra es el primero en salir. El cual tiene unas operaciones básicas como `pop()`, `peek()`, `push()`y `is_empty()`, cada una tiene su función. Por ejemplo, con el `pop()` se elimina el último elemento insertado en la pila; con `push()` se introduce a la última posición un elemento; con el `peek()` sacas el último elemento insertado; y el `is_empty()` verifica si la pila está vacía.
+
 En esta clase, aparte de los comandos básicos, hemos creado otras dos operaciones que son: `size()` y `contains()`. `size()` devuelve la cantidad de elementos que están en la pila, y `contains()` devuelve si el elemento que se introduce lo tiene puesto la modelo o no.
 
 ### Clase MV 
