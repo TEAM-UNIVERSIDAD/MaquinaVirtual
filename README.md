@@ -34,6 +34,7 @@ En esta clase, aparte de los comandos básicos, hemos creado otras dos operacion
 
 ### Clase MV 
 Se creará una Máquina Virtual basada en pilas, donde podremos vestir a una ‘modelo’ que guardará los accesorios que se ponga en una pila. Dentro de la Máquina Virtual tenemos una pila que será **vestir**, en las cual se guardará información diferente dependiendo de cada uno de los elementos insertados. Los elementos se encuentran en listas, estas son: **modelos, peinados, alas y zapatos**. Tendremos guardado unos outfits en un registro de memoria y unos links de videos, los cuales estarán relacionados más adelante. 
+
 Se tienen cuatro funciones: `comparar_outfit()`, `completo()`, `interpretar_comando()` y `execute()`. 
 En la función `completo()`, se verifica si en la pila `vestir` tenemos el outfit completo o no. Si no se tiene un elemento, te dirá cual falta y pondrá que el outfit es original. También se fijará que solo haya un elemento de cada tipo.
 En `comparar_outfit()`, como indica su nombre, hacemos que se comparen los outfits que tenemos en el registro de memoria con el outfit creado por el usuario, si el outfit creado coincide con uno de la memoria, lo redirigirá a un video de ese outfit; y si no, te dirá que has creado un outfit original. 
